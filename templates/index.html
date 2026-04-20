@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kids Students</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="{{ url_for('index') }}" class="navbar-brand">Kids Students</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <h1>Bienvenidos a Kids Students</h1>
+        <p>Clases de Español, Matemáticas y más para niños de primaria a sexto grado de primaria.</p>
+    </header>
+
+    <main class="page-content">
+        <section class="card-grid">
+            {% for grado in grados %}
+            <article class="card">
+                <h2>Grado {{ grado }}</h2>
+                <p>Explora las materias de {{ grado }} y comienza tu aprendizaje interactivo.</p>
+                <div class="card-actions">
+                    <a class="button button-primary" href="{{ url_for('grado', grado=grado) }}">Ver materias</a>
+                </div>
+            </article>
+            {% endfor %}
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Escuela Mágica - Plataforma E-learning | ¡Aprende jugando! 🌟</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grado {{ grado }} - Kids Students</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="{{ url_for('index') }}" class="navbar-brand">Kids Students</a>
+        </div>
+    </nav>
+
+    <header class="hero hero-small">
+        <h1>Grado {{ grado }}</h1>
+        <p>Elige una materia para iniciar una lección divertida.</p>
+    </header>
+
+    <main class="page-content">
+        <section class="materias-list">
+            <h2>Materias disponibles</h2>
+            <div class="materias-grid">
+                {% for materia in materias %}
+                <article class="materia-card">
+                    <h3>{{ materia }}</h3>
+                    <p>Lección interactiva y colorida para {{ materia }}.</p>
+                    <a class="button button-primary" href="{{ url_for('materia', grado=grado, materia=materia) }}">Explorar temas</a>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+        <div class="back-link">
+            <a class="button button-secondary" href="{{ url_for('index') }}">⬅ Volver a grados</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Selecciona una materia y disfruta aprendiendo.</p>
+    </footer>
+</body>
+</html>

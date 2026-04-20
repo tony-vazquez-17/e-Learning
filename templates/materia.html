@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ materia }} - {{ grado }} - Kids Students</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="{{ url_for('index') }}" class="navbar-brand">Kids Students</a>
+            <span class="navbar-title">{{ materia }} - Grado {{ grado }}</span>
+        </div>
+    </nav>
+
+    <header class="hero hero-small">
+        <h1>{{ materia }}</h1>
+        <p>Grado {{ grado }} - Elige un tema y comienza tu aprendizaje</p>
+    </header>
+
+    <main class="page-content">
+        {% if temas %}
+        <section class="temas-list">
+            <h2>Temas disponibles</h2>
+            <div class="temas-grid">
+                {% for tema in temas %}
+                <article class="tema-card">
+                    <div class="tema-image">
+                        <img src="{{ tema.imagen }}" alt="{{ tema.titulo }}" />
+                    </div>
+                    <div class="tema-content">
+                        <h3>{{ tema.titulo }}</h3>
+                        <p>{{ tema.descripcion }}</p>
+                        <a class="button button-primary" href="{{ url_for('tema', grado=grado, materia=materia, tema_id=tema.id) }}">Ver tema</a>
+                    </div>
+                </article>
+                {% endfor %}
+            </div>
+        </section>
+        {% else %}
+        <section class="no-content">
+            <p>Próximamente habrá contenido disponible para esta materia.</p>
+        </section>
+        {% endif %}
+
+        <div class="back-link">
+            <a class="button button-secondary" href="{{ url_for('grado', grado=grado) }}">Volver</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>¡Elige un tema y disfruta aprendiendo! 🌟</p>
+    </footer>
+</body>
+</html>
+

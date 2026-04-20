@@ -1,0 +1,249 @@
+{
+  "grados": {
+    "Primero": [
+      "Español",
+      "Matemáticas",
+      "Exploración de la Naturaleza y la Sociedad",
+      "Formación Cívica y Ética",
+      "Educación Artística",
+      "Educación Física"
+    ],
+    "Segundo": [
+      "Español",
+      "Matemáticas",
+      "Exploración de la Naturaleza y la Sociedad",
+      "Formación Cívica y Ética",
+      "Educación Artística",
+      "Educación Física"
+    ],
+    "Tercero": [
+      "Español",
+      "Matemáticas",
+      "Ciencias Naturales",
+      "La Entidad donde Vivo",
+      "Formación Cívica y Ética",
+      "Educación Artística",
+      "Educación Física"
+    ],
+    "Cuarto": [
+      "Español",
+      "Matemáticas",
+      "Ciencias Naturales",
+      "Geografía",
+      "Historia",
+      "Formación Cívica y Ética",
+      "Educación Artística",
+      "Educación Física"
+    ],
+    "Quinto": [
+      "Español",
+      "Matemáticas",
+      "Ciencias Naturales",
+      "Geografía",
+      "Historia",
+      "Formación Cívica y Ética",
+      "Educación Artística",
+      "Educación Física"
+    ],
+    "Sexto": [
+      "Español",
+      "Matemáticas",
+      "Ciencias Naturales",
+      "Geografía",
+      "Historia",
+      "Formación Cívica y Ética",
+      "Educación Artística",
+      "Educación Física"
+    ]
+  },
+  "temas": {
+    "Español": [
+      {
+        "id": "lectura-basica",
+        "titulo": "Lectura Básica",
+        "descripcion": "Aprende a leer palabras simples y formar oraciones cortas.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=F2a89YLFPE0",
+        "imagen": "C:\\Users\\avv17\\OneDrive\\Documentos\\Codigo\\E-Learning\\static\\images\\lectura-basica.jpeg",
+        "contenido": "La lectura es una habilidad fundamental que te ayudará a comunicarte mejor. En esta lección aprenderemos vocabulario básico y a construir frases simples.\n\n📖 ¿Qué es la lectura?\nLa lectura es el proceso de interpretar signos escritos (letras, palabras y textos) para entender su significado. Es una de las habilidades más importantes porque nos permite acceder a nueva información y conectar con otros a través de las palabras.\n\n🔤 Las letras del alfabeto\nEl español tiene 27 letras. Cada una se escribe de manera diferente y representa un sonido único. En esta lección practicaremos reconocer cada letra y su sonido.\n\n✍️ Palabras simples\nComenzaremos con palabras cortas de 2-3 sílabas, como: gato, casa, sol, luna, pan, tía. Estas palabras nos ayudan a familiarizarnos con las combinaciones de letras.\n\n🗣️ Pronunciación correcta\nMientras aprendemos a leer, también practicaremos la pronunciación correcta de cada palabra. Esto es importante para comunicarnos claramente con otros.\n\n💡 Consejo: Lee lentamente y con cuidado. No hay prisa. Cada persona aprende a su propio ritmo."
+      },
+      {
+        "id": "vocabulario",
+        "titulo": "Vocabulario Diario",
+        "descripcion": "Descubre nuevas palabras para usar cada día.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=0r9w_yxhbpo",
+        "imagen": "/static/images/vocabulario.jpg",
+        "contenido": "Ampliar nuestro vocabulario nos permite expresarnos mejor y entender mejor a los demás. Estos son palabras que usamos todos los días.\n\n🎯 ¿Por qué es importante el vocabulario?\nLas palabras son las herramientas que usamos para comunicarnos. Cuantas más palabras conocemos, mejor podemos expresar nuestras ideas, sentimientos y pensamientos. Un vocabulario rico nos ayuda a ser más persuasivos e interesantes.\n\n🏫 Palabras escolares\n- Escuela: lugar donde aprendemos\n- Maestro/a: persona que enseña\n- Estudiante: persona que aprende\n- Libro: objeto que contiene historias o información\n- Pizarrón: superficie donde se escribe\n\n🏠 Palabras del hogar\n- Casa: lugar donde vivimos\n- Familia: personas que nos aman\n- Cocina: lugar donde se prepara la comida\n- Dormitorio: lugar donde dormimos\n- Ventana: abertura para ver afuera\n\n🌳 Palabras de la naturaleza\n- Árbol: planta grande con tronco\n- Flor: parte colorida de las plantas\n- Agua: líquido necesario para vivir\n- Cielo: lo que vemos arriba\n- Tierra: suelo donde vivimos\n\n💪 Actividades diarias\n- Jugar: divertirse\n- Comer: consumir alimentos\n- Dormir: descansar\n- Correr: moverse rápido\n- Cantar: hacer música con la voz"
+      },
+      {
+        "id": "escritura",
+        "titulo": "Introducción a la Escritura",
+        "descripcion": "Comienza a escribir tus primeras palabras y oraciones.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=9cMkoNkZe_4",
+        "imagen": "/static/images/escritura.jpg",
+        "contenido": "La escritura es la forma de comunicarnos por escrito. Comenzaremos con trazo de letras y palabras sencillas.\n\n✏️ Preparación para escribir\nAntes de escribir, necesitamos desarrollar la motricidad fina. Esto significa fortalecer los músculos de nuestras manos. Practicaremos:\n- Garabatos y líneas\n- Círculos y espirales\n- Patrones y formas\n\n📝 Trazo de letras\nCada letra tiene un trazo único. Comenzaremos con letras mayúsculas grandes, que son más fáciles de escribir. Luego pasaremos a letras minúsculas.\n\n🔤 Tipos de letras\n- Mayúsculas: letras grandes al inicio de nombre o frase (A, B, C)\n- Minúsculas: letras pequeñas (a, b, c)\n- Cursivas: letras unidas, con un estilo fluido\n\n📚 Palabras y oraciones\n- Palabra: conjunto de letras que forma un significado\n- Oración: grupo de palabras que expresa idea completa\n- Punto: signo que termina una oración\n- Mayúscula: letra que inicia una oración\n\n💡 Consejos para escribir bien\n1. Mantén buena postura\n2. Sostén el lápiz correctamente\n3. Escribe lentamente y con cuidado\n4. Practica todos los días\n5. No te desanimes, todos cometemos errores"
+      }
+    ],
+    "Matemáticas": [
+      {
+        "id": "numeros-basicos",
+        "titulo": "Números del 1 al 10",
+        "descripcion": "Conoce los números básicos y aprende a contar.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=oSmFJu6naxo",
+        "imagen": "/static/images/numeros-basicos.jpg",
+        "contenido": "Los números son la base de las matemáticas. En esta lección aprenderemos a reconocer y usar los números del 1 al 10.\n\n🔢 ¿Qué son los números?\nLos números son símbolos que representan cantidades. Nos ayudan a contar, medir y comparar cosas en el mundo.\n\n📝 Números del 1 al 10\n1 - Uno: Un objeto\n2 - Dos: Dos objetos\n3 - Tres: Tres objetos\n4 - Cuatro: Cuatro objetos\n5 - Cinco: Cinco objetos (tenemos 5 dedos en cada mano)\n6 - Seis: Seis objetos\n7 - Siete: Siete objetos (días de la semana)\n8 - Ocho: Ocho objetos\n9 - Nueve: Nueve objetos\n10 - Diez: Diez objetos\n\n🎲 Contando con objetos\nPractiquemos contando cosas reales: libros, lápices, manzanas, juguetes. Esto nos ayuda a entender mejor qué significan los números.\n\n👆 Los dedos como herramienta\nNuestros dedos son una excelente herramienta para aprender. Podemos usar nuestras manos para contar hasta 10.\n\n📊 Orden de los números\nImportante: los números tienen un orden específico. 1 viene primero, luego 2, luego 3, y así sucesivamente hasta 10. Este orden siempre es el mismo."
+      },
+      {
+        "id": "sumas-basicas",
+        "titulo": "Sumas Simples",
+        "descripcion": "Aprende a sumar números pequeños jugando.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=j-ZnLT8WHYE",
+        "imagen": "/static/images/sumas-basicas.jpg",
+        "contenido": "La suma es la operación matemática más básica. Usaremos ejemplos de objetos reales para entender mejor.\n\n➕ ¿Qué es sumar?\nSumar significa juntar o combinar dos cantidades para obtener una cantidad total mayor. Es agregar cosas.\n\n🎯 Ejemplos de suma\n- Si tengo 2 manzanas y me dan 3 manzanas más, ahora tengo 5 manzanas. (2 + 3 = 5)\n- Si tengo 1 lápiz rojo y 1 lápiz azul, tengo 2 lápices en total. (1 + 1 = 2)\n- Si tengo 4 canicas y encuentro 2 más, ahora tengo 6 canicas. (4 + 2 = 6)\n\n🧮 El símbolo de suma\n- El símbolo \"+\" se llama \"más\" y significa que debemos sumar (juntar)\n- El símbolo \"=\" se llama \"igual\" y muestra el resultado\n\n📐 Sumas simples para practicar\n1 + 1 = 2\n1 + 2 = 3\n2 + 2 = 4\n2 + 3 = 5\n3 + 3 = 6\n3 + 4 = 7\n4 + 4 = 8\n4 + 5 = 9\n5 + 5 = 10\n\n💡 Consejo: Cuando sumes, puedes contar con los dedos o dibujar puntos. No tiene nada de malo usar ayudas para entender mejor."
+      },
+      {
+        "id": "formas-basicas",
+        "titulo": "Formas Geométricas",
+        "descripcion": "Descubre formas como círculos, cuadrados y triángulos.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=Oj98OQaZAoM",
+        "imagen": "/static/images/formas-basicas.jpg",
+        "contenido": "La geometría estudia las formas que vemos a nuestro alrededor. Aprenderemos a identificar y nombrar las formas básicas.\n\n🔷 El Cuadrado\n- Tiene 4 lados iguales\n- Tiene 4 esquinas (ángulos rectos)\n- Ejemplo: un dado, una mesa cuadrada, un tablero de ajedrez\n\n🔺 El Triángulo\n- Tiene 3 lados\n- Tiene 3 vértices (esquinas)\n- Ejemplo: una rebanada de pizza, un árbol navideño, una montaña\n\n⭕ El Círculo\n- No tiene lados\n- No tiene esquinas\n- Es redondo por todos lados\n- Ejemplo: una rueda, un plato, el sol, la luna\n\n▶️ El Rectángulo\n- Tiene 4 lados\n- Los lados largos son iguales entre sí\n- Los lados cortos son iguales entre sí\n- Ejemplo: un libro, una puerta, una ventana\n\n🌈 ¿Dónde vemos estas formas?\n- En la clase: cuadrado en el pizarrón, rectángulo en la puerta\n- En el patio: círculo en el reloj, triángulo en la portería\n- En la naturaleza: círculo en las flores, triángulo en las montañas\n\n✂️ Actividad: Busca en tu sala 5 objetos de cada forma. ¡Aprenderás mucho observando!"
+      }
+    ],
+    "Ciencias Naturales": [
+      {
+        "id": "ciclo-agua",
+        "titulo": "El Ciclo del Agua",
+        "descripcion": "Entiende cómo el agua circula en la naturaleza.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=9xGQVYNjOhY",
+        "imagen": "/static/images/ciclo-agua.jpg",
+        "contenido": "El agua es esencial para la vida. En este tema aprenderemos cómo el agua se evapora, condensa y vuelve a caer como lluvia.\n\n💧 ¿Por qué el agua es importante?\nEl agua es vital para todos los seres vivos:\n- Las plantas la necesitan para crecer\n- Los animales la necesitan para beber\n- Los humanos la necesitamos para beber, cocinar y asear\n- Cubre el 70% del planeta Tierra\n\n🌞 La Evaporación\nCuando el sol calienta el agua, esta sube hacia el aire en forma de vapor invisible. Este proceso se llama evaporación.\n- El agua del mar se evapora\n- El agua de los ríos se evapora\n- El agua de la personas y animales (transpiración) sube a la atmósfera\n\n☁️ La Condensación\nCuando el vapor sube y sube, se hace más frío. El vapor se convierte en pequeñas gotitas de agua que forman las nubes.\n- Las nubes son millones de gotitas de agua\n- Las nubes pueden ser blancas, grises o negras\n- Las nubes flotan en el cielo\n\n🌧️ La Precipitación\nCuando las gotitas en las nubes se hacen muy pesadas, caen como lluvia.\n- Lluvia: gotitas de agua\n- Nieve: agua congelada\n- Granizo: bolas pequeñas de hielo\n\n🔄 El Ciclo Completo\n1. El sol calienta el agua\n2. El agua se evapora y sube hacia el cielo\n3. En el aire frío se condensa formando nubes\n4. Las nubes se hacen pesadas y llueve\n5. El agua regresa a ríos, lagos y mares\n6. ¡Y el ciclo comienza de nuevo!\n\n🌍 Este ciclo ha existido millions de años y continuará por siempre. El agua que bebes hoy pudo haber sido bebida por dinosaurios hace millones de años."
+      },
+      {
+        "id": "animales-domesticos",
+        "titulo": "Animales Domésticos",
+        "descripcion": "Conoce los animales que viven con humanos.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=J---aiyznGQ",
+        "imagen": "/static/images/animales-domesticos.jpg",
+        "contenido": "Los animales domésticos son compañeros leales. Aprenderemos sobre sus características, cuidados y cómo convivir con ellos.\n\n🐕 El Perro\n- Animal: Mamífero\n- Características: Leal, cariñoso, protector\n- Necesita: Comida, agua, ejercicio, cariño\n- Sonido: Ladrida\n- Vive: Entre 8-15 años\n\n🐱 El Gato\n- Animal: Mamífero\n- Características: Independiente, ágil, curioso\n- Necesita: Comida, agua, arenero, juguetes\n- Sonido: Maúlla\n- Vive: Entre 10-18 años\n\n🐰 El Conejo\n- Animal: Mamífero\n- Características: Tierno, rápido, social\n- Necesita: Comida (zanahorias, lechuga), agua, jaula\n- Sonido: Gruñe o chilla\n- Vive: Entre 8-12 años\n\n🐹 El Hamster\n- Animal: Mamífero\n- Características: Pequeño, activo, sociable\n- Necesita: Semillas, agua, rueda para correr, nido\n- Sonido: Inquieto, rara vez emite sonidos\n- Vive: Entre 2-3 años\n\n🐠 El Pez\n- Animal: Acuático\n- Características: Silencioso, colorido (en muchos casos)\n- Necesita: Agua limpia, comida especial, oxígeno\n- Sonido: No emite sonidos\n- Vive: Entre 3-10 años según la especie\n\n💝 Responsabilidades de tener un animal doméstico\n1. Darle comida nutritiva todos los días\n2. Proporcionarle agua fresca y limpia\n3. Acariciarlo y jugar con él\n4. Llevarlo al veterinario cuando esté enfermo\n5. Mantener su espacio limpio\n6. Darle atención y amor"
+      },
+      {
+        "id": "plantas",
+        "titulo": "Las Plantas",
+        "descripcion": "Descubre cómo crecen las plantas y sus partes.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=ysRzgbnrU8I",
+        "imagen": "/static/images/plantas.jpg",
+        "contenido": "Las plantas son seres vivos que nos dan oxígeno y alimento. Conoceremos sus partes y cómo crecen desde semillas.\n\n🌱 ¿Qué son las plantas?\nLas plantas son seres vivos que:\n- Necesitan luz del sol\n- Necesitan agua\n- Necesitan tierra (nutrientes)\n- Producen oxígeno\n- No pueden moverse de un lugar a otro\n\n🌿 Partes principales de una planta\n\n🌾 Raíces\n- Están bajo tierra\n- Absorben agua y nutrientes\n- Sostienen la planta\n\n🎋 Tallo\n- Está sobre tierra\n- Sostiene hojas y flores\n- Distribuye agua y nutrientes\n\n🍃 Hojas\n- Salida de los tallos\n- Son generalmente verdes\n- Producen alimento usando luz solar\n- Respiran y transpiran agua\n\n🌸 Flores\n- Tienen colores bonitos\n- Huelen bien\n- Producen semillas\n- Atraen insectos y polinizadores\n\n🌽 Frutos\n- Contienen semillas\n- Pueden comerse en muchos casos\n- Protegen las semillas\n\n💚 El Ciclo de Vida de una Planta\n\n1️⃣ Germinación: La semilla germina en tierra húmeda\n2️⃣ Crecimiento: Emergen raíces y primeras hojas\n3️⃣ Desarrollo: La planta crece cada vez más\n4️⃣ Floración: Aparecen flores bonitas\n5️⃣ Reproducción: Las flores producen semillas\n6️⃣ Maduración: El fruto madura\n\n☀️ ¿Qué necesita una planta para vivir?\n- Luz solar: Necesita al menos 6 horas de luz\n- Agua: Regular pero no excesiva\n- Tierra: Suelo con nutrientes\n- Aire: Necesita dióxido de carbono\n- Temperatura: Adecuada según la especie"
+      }
+    ],
+    "Educación Física": [
+      {
+        "id": "calentamiento",
+        "titulo": "Ejercicios de Calentamiento",
+        "descripcion": "Prepara tu cuerpo antes de hacer ejercicio.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=TwcPDqVBKJ0",
+        "imagen": "/static/images/calentamiento.jpg",
+        "contenido": "El calentamiento es importante para preparar nuestros músculos. Aprenderemos movimientos simples y seguros.\n\n🔥 ¿Por qué calentar?\nAntes de hacer ejercicio intenso, nuestro cuerpo necesita prepararse:\n- Aumenta la temperatura corporal\n- Aumenta la frecuencia cardíaca gradualmente\n- Lubrica las articulaciones\n- Previene lesiones\n- Mejora el rendimiento físico\n\n🚶 Calentamiento General (5-10 minutos)\n\nCaminata en el lugar\n- Camina elevando las rodillas\n- Hazlo de 1-2 minutos\n- Acelera gradualmente tu ritmo\n\nRotación de brazos\n- Extiende los brazos a los lados\n- Rota hacia adelante 10 veces\n- Rota hacia atrás 10 veces\n\nRotación de caderas\n- De pie, manos en la cintura\n- Haz círculos con tu cadera\n- 10 veces en cada dirección\n\nFlexiones de rodillas\n- De pie, pies separados al ancho de hombros\n- Dobla las rodillas lentamente\n- Vuelve a la posición inicial\n- Repite 10-15 veces\n\nEstiramiento suave\n- Toca tus dedos de los pies (sin forzar)\n- Estira los brazos hacia arriba\n- Gira el torso suavemente\n- 30 segundos cada movimiento\n\n💡 IMPORTANTE: Siempre respeta tu cuerpo. Si algo duele, detente. El calentamiento debe ser suave y progresivo."
+      },
+      {
+        "id": "deportes-basicos",
+        "titulo": "Deportes Básicos",
+        "descripcion": "Conoce deportes populares y divertidos.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=mH8GWB3FqqI",
+        "imagen": "/static/images/deportes-basicos.jpg",
+        "contenido": "Hay muchos deportes que podemos disfrutar. En esta lección aprenderemos las reglas básicas de algunos deportes populares.\n\n⚽ Fútbol\n- Jugadores: 11 por equipo\n- Objetivo: Meter el balón en la portería contraria\n- Duración: 90 minutos (2 tiempos de 45)\n- Regla básica: No se puede tocar el balón con las manos (excepto el portero)\n- Diversión: ¡El deporte más popular del mundo!\n\n🏀 Baloncesto\n- Jugadores: 5 por equipo\n- Objetivo: Lanzar el balón en la canasta contraria\n- Canasta: Está a 3.05 metros de altura\n- Puntos: Por el aro = 2 puntos, De fuera de línea = 3 puntos\n- Diversión: Rápido, emocionante y lleno de saltos\n\n🎾 Tenis\n- Jugadores: 1 vs 1 (individual) o 2 vs 2 (dobles)\n- Objetivo: Enviar la pelota al otro lado de la red\n- Raqueta: Se usa para golpear la pelota\n- Puntuación: 15, 30, 40 o juego\n- Diversión: Requiere concentración y velocidad\n\n🏐 Voleibol\n- Jugadores: 6 por equipo\n- Objetivo: Pasar el balón sobre la red\n- Red: Está a 2.43 metros de altura (hombres)\n- Toque máximo: 3 toques por equipo\n- Diversión: Trabajo en equipo y coordinación\n\n🏊 Natación\n- Estilos: Crol, pecho, espalda, mariposa\n- Objetivo: Nadar rápido y/o bien coordinado\n- Beneficio: Ejercicio completo para todo el cuerpo\n- Seguridad: Siempre nada con supervisión\n- Diversión: Refrescante y saludable\n\n🏃 Atletismo\n- Carreras: 100m, 200m, 400m, 1500m\n- Saltos: Largo, altura, triple\n- Lanzamientos: Jabalina, disco, bala\n- Objetivo: Llegar primero o lograr la mejor marca\n- Diversión: Superar tus propios límites"
+      },
+      {
+        "id": "coordinacion",
+        "titulo": "Desarrollo de Coordinación",
+        "descripcion": "Mejora tu equilibrio y coordinación motriz.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=7VXW8ZFjQQI",
+        "imagen": "/static/images/coordinacion.jpg",
+        "contenido": "La coordinación es la capacidad de nuestro cuerpo para trabajar en equipo. Practicaremos ejercicios que la mejoren.\n\n🎯 ¿Qué es la coordinación?\nLa coordinación es la habilidad de nuestro cuerpo para usar diferentes partes de forma armoniosa:\n- Coordinación ojo-mano: Ver y agarrar\n- Coordinación ojo-pie: Ver y patear\n- Equilibrio: Mantenerse en pie\n- Ritmo: Seguir un patrón de movimiento\n\n🏃 Ejercicios para mejorar la coordinación\n\nSaltos a la cuerda\n- Salta mientras giras la cuerda\n- Comienza lentamente\n- Aumenta la velocidad gradualmente\n- 1-3 minutos\n\nTocarse la rodilla y la oreja\n- De pie\n- Toca tu rodilla derecha con tu mano izquierda\n- Toca tu oreja izquierda con tu mano derecha\n- Alterna y acelera\n\nCaminar en línea recta\n- Camina sobre una línea imaginaria\n- Sin salirse de la línea\n- Los ojos cerrados (difícil)\n- Abiertos (fácil)\n\nLanzar y atrapar\n- De pie a cierta distancia\n- Lanza una pelota a otro\n- Atrapa la pelota\n- Aumenta la distancia\n\nEquilibrio en una pierna\n- De pie\n- Levanta una pierna\n- Mantén el equilibrio 30 segundos\n- Cambia de pierna\n\nCircuito de coordinación\n- Corre entre conos\n- Salta sobre obstáculos\n- Camina hacia atrás\n- Combina diferentes movimientos\n\n📈 Beneficios de mejorar la coordinación\n- Mejor desempeño en deportes\n- Menor riesgo de lesiones\n- Mayor confianza y autonomía\n- Mejor control de tu cuerpo\n- Diversión mientras ejercitas\n\n💪 Recuerda: La práctica hace al maestro. Mientras más practiques, mejor será tu coordinación."
+      }
+    ],
+    "Formación Cívica y Ética": [
+      {
+        "id": "valores",
+        "titulo": "Valores Fundamentales",
+        "descripcion": "Aprende sobre la honestidad, respeto y responsabilidad.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=Dx0n-rhbvWI",
+        "imagen": "/static/images/valores.jpg",
+        "contenido": "Los valores son principios que guían nuestro comportamiento. Exploraremos valores importantes como la honestidad y el respeto.\n\n❤️ ¿Qué son los valores?\nLos valores son creencias importantes que nos ayudan a decidir qué está bien y qué está mal. Son como reglas que nos guían en la vida.\n\n🤝 Honestidad\n- Significa decir la verdad siempre\n- Ser sincero con otros\n- No mentir ni engañar\n- Admitir cuando cometemos errores\n- Ejemplo: Decir la verdad aunque sea difícil\n\n👥 Respeto\n- Tratar a otros como te gustaría ser tratado\n- Escuchar a los demás\n- No burlarse ni insultar\n- Valorar las diferencias\n- Ejemplo: Levantar la mano para hablar en clase\n\n🎯 Responsabilidad\n- Hacer lo que prometemos\n- Cuidar nuestras cosas\n- Cumplir nuestras tareas\n- Asumir las consecuencias de nuestros actos\n- Ejemplo: Hacer la tarea sin que nos lo pidan\n\n💪 Valentía\n- Enfrentar los miedos\n- Defender lo que es correcto\n- Intentar cosas nuevas\n- No rendirse ante dificultades\n- Ejemplo: Levantar la mano en clase aunque tengas miedo\n\n🙏 Generosidad\n- Ayudar sin esperar recompensa\n- Compartir con otros\n- Ser amable\n- Pensar en los demás\n- Ejemplo: Compartir tu merienda con un amigo\n\n🌈 Cómo practicar los valores\n- En casa: Ayuda a tu familia\n- En la escuela: Sé amable con tus compañeros\n- En el parque: Comparte los juguetes\n- En la calle: Respeta a los adultos\n- Siempre: Trata a otros bien"
+      },
+      {
+        "id": "convivencia",
+        "titulo": "Convivencia Escolar",
+        "descripcion": "Vive en armonía con tus compañeros.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=8Dt60K5s7wM",
+        "imagen": "/static/images/convivencia.jpg",
+        "contenido": "La convivencia armónica es importante para el bienestar de todos. Aprenderemos cómo desarrollar amistades saludables.\n\n👫 ¿Qué es la convivencia?\nLa convivencia es vivir juntos en paz y respeto. Es trabajar en equipo, ayudarnos mutuamente y resolver conflictos sin violencia.\n\n✨ Cómo hacer amigos\n- Sé amable y sonríe\n- Respeta los espacios de otros\n- Comparte tus juguetes\n- Escucha a los demás\n- Invita a otros a jugar\n- Sé inclusivo y acepta a todos\n\n🚫 Lo que NO debes hacer\n- No insultes ni burles\n- No excluyas a otros\n- No golpees ni empujes\n- No robes cosas\n- No hagas trampa en juegos\n- No interrumpas a otros\n\n🤝 Resolución de conflictos\n1. Escucha el otro lado\n2. Expresa cómo te sientes\n3. Busca soluciones juntos\n4. Pide disculpas si es necesario\n5. Aprende de la experiencia\n\n🎯 Normas de convivencia\n- Respetar turnos\n- Cuidar espacios compartidos\n- Hablar con respeto\n- Incluir a todos\n- Aceptar las diferencias\n- Ayudar cuando sea necesario\n- Participar activamente\n\n💡 Rol de cada uno\nMaestros: Enseñan y mantienen orden\nEstudiantes: Aprenden y respetan normas\nFamilia: Apoya la educación\nTodos: Trabajamos para una comunidad mejor"
+      }
+    ],
+    "Educación Artística": [
+      {
+        "id": "pintura",
+        "titulo": "Introducción a la Pintura",
+        "descripcion": "Expresa tu creatividad con colores y pinceles.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=xdgW3W6zCH8",
+        "imagen": "/static/images/pintura.jpg",
+        "contenido": "La pintura es una forma de expresión artística. Aprenderemos sobre colores primarios y cómo mezclarlos.\n\n🎨 ¿Qué es la pintura?\nLa pintura es el arte de crear imágenes usando colores. Es una forma de expresar emociones, ideas e imaginación.\n\n🌈 Colores Primarios\nSon los colores básicos que no se pueden hacer mezclando otros:\n- Rojo: Energía, pasión, amor\n- Amarillo: Alegría, luz, optimismo\n- Azul: Calma, paz, tristeza\n\n🎨 Colores Secundarios\nSe hacen mezclando dos colores primarios:\n- Rojo + Amarillo = Naranja\n- Amarillo + Azul = Verde\n- Azul + Rojo = Violeta\n\n💡 Mezcla de Colores\n- Usa la paleta para mezclar\n- Comienza con poco color\n- Agrega gradualmente\n- Limpia el pincel entre colores\n- Experimenta y diviértete\n\n🖌️ Técnicas de Pintura\n- Pincelada suave\n- Pincelada fuerte\n- Punteado\n- Degradado (pasar un color a otro)\n- Goteo y salpicado\n\n✨ Elementos de una pintura\n- Línea: Divide el espacio\n- Forma: El objeto que dibujas\n- Color: Transmite emociones\n- Textura: Rugosa, suave, etc.\n- Espacio: Profundidad\n\n💪 Consejos para pintar\n1. Protege tu ropa con un delantal\n2. Usa agua limpia para el pincel\n3. No mezcles demasiados colores\n4. Sé paciente y disfruta\n5. No hay pinturas correctas o incorrectas"
+      },
+      {
+        "id": "musica-basica",
+        "titulo": "Introducción a la Música",
+        "descripcion": "Descubre notas musicales y ritmos básicos.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=r8uJEHPEnOU",
+        "imagen": "/static/images/musica-basica.jpg",
+        "contenido": "La música nos comunica emociones. En esta lección aprenderemos sobre ritmo, melodía y las notas musicales.\n\n🎵 ¿Qué es la música?\nLa música es el arte de combinar sonidos y silencios en el tiempo. Es universalmente hablada y entendida.\n\n🎜 Las notas musicales\nHay 7 notas principales:\n- DO: Primera nota\n- RE: Segunda nota\n- MI: Tercera nota\n- FA: Cuarta nota\n- SOL: Quinta nota\n- LA: Sexta nota\n- SI: Séptima nota\n\n🎼 Las notas en el pentagrama\nEl pentagrama tiene 5 líneas donde se escriben las notas.\n- Las notas pueden estar en las líneas\n- Las notas pueden estar en los espacios entre líneas\n\n💓 El Ritmo\nEl ritmo es el patrón de duración de los sonidos:\n- Negra: Un tiempo\n- Blanca: Dos tiempos\n- Redonda: Cuatro tiempos\n- Corchea: Medio tiempo\n\n🎶 La Melodía\nLa melodía es una secuencia de notas que forma una canción.\n- Puede ser alta o baja\n- Puede ser lenta o rápida\n- Transmite emociones\n\n🎺 Instrumentos básicos\n- Piano: Teclado con martillos\n- Guitarra: Cuerdas que vibran\n- Flauta: Soplo de aire\n- Tambor: Percusión\n- Trompeta: Viento y metal\n\n🎤 Elementos de la música\n- Tempo: Velocidad\n- Volumen: Fuerte o suave\n- Timbre: Tipo de sonido\n- Compás: Agrupación de tiempos"
+      },
+      {
+        "id": "dibujo",
+        "titulo": "Técnicas de Dibujo",
+        "descripcion": "Aprende diferentes técnicas para dibujar.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=lFZJ38Rg8FE",
+        "imagen": "/static/images/dibujo.jpg",
+        "contenido": "El dibujo es la base del arte. Practicaremos técnicas básicas como el trazo y el sombreado.\n\n✏️ Materiales necesarios\n- Lápiz: Diferentes durezas\n- Papel: Liso o texturizado\n- Goma: Para borrar\n- Sacapuntas: Para punta fina\n- Regla: Para líneas rectas\n\n📐 Tipos de líneas\n- Línea recta: Usando regla\n- Línea curva: Natural\n- Línea ondulada: Movimiento\n- Línea en zigzag: Dinamismo\n- Línea puntillada: Suavidad\n\n🎯 Formas básicas\n- Círculo: Base de muchos dibujos\n- Cuadrado: Estructura\n- Triángulo: Dinamismo\n- Rectángulo: Proporciones\n- Óvalo: Naturalidad\n\n👥 Dibujar figuras\nPasos para dibujar una cara:\n1. Dibuja un óvalo\n2. Divide en secciones\n3. Coloca ojos a 1/3 de altura\n4. Nariz en el medio\n5. Boca en el tercio inferior\n6. Añade orejas y cabello\n\n🌳 Dibujar naturaleza\n- Árboles: Tronco + copa redonda\n- Flores: Centro + pétalos\n- Montañas: Triángulos conectados\n- Agua: Líneas onduladas\n\n🎨 Técnicas de Sombreado\n- Líneas: Paralelas, cruzadas\n- Puntos: Pointillismo\n- Círculos: Suave y natural\n- Degradado: De claro a oscuro\n\n✨ Perspectiva y profundidad\n- Objetos lejanos más pequeños\n- Objetos cercanos más grandes\n- Superponer objetos\n- Usar líneas convergentes\n\n💡 Consejos para mejorar\n1. Practica todos los días\n2. Observa detalladamente\n3. Dibuja desde la vida real\n4. Usa cuadrículas al inicio\n5. Experimenta con técnicas\n6. No te desanimes por errores"
+      }
+    ],
+    "Historia": [
+      {
+        "id": "historia-antigua",
+        "titulo": "Civilizaciones Antiguas",
+        "descripcion": "Viaja al pasado y descubre grandes civilizaciones.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=NG2aTN6vs1A",
+        "imagen": "/static/images/historia-antigua.jpg",
+        "contenido": "Las civilizaciones antiguas nos dejaron un legado increíble. Aprenderemos sobre Egipto, Mesopotamia y otras grandes civilizaciones.\n\n🏛️ ¿Qué es una civilización antigua?\nUna civilización es un grupo de personas organizadas que viven en un territorio, comparten cultura y creencias.\n\n🐪 Antiguo Egipto\n- Ubicación: Río Nilo en África\n- Periodo: 3000 a.C. - 30 a.C.\n- Gobernante: Faraón\n- Construcciones: Pirámides, templos\n- Legado: Escritura jeroglífica, momias, arquitectura\n\nPirámides:\n- Construcciones enormes para faraones\n- La Gran Pirámide: Una de las 7 maravillas\n- Cubiertas de bloques de piedra\n- Interiores con cámaras y tesoros\n\nFaraones famosos:\n- Tutankamón (El faraón joven)\n- Ramsés II (Grande constructor)\n- Cleopatra (Última faraona)\n\n🏗️ Mesopotamia\n- Ubicación: Entre ríos Tigris y Éufrates\n- Periodo: 3500 a.C. - 539 a.C.\n- Civilizaciones: Sumerios, Babilonios, Asirios\n- Invenciones: Escritura cuneiforme, rueda, código de leyes\n\nLogros:\n- Primera escritura: Cuneiforme\n- Primeras ciudades\n- Código de Hammurabi: Primeras leyes escritas\n- Astronomía y matemáticas\n\nHammurabi:\n- Rey de Babilonia\n- Escribió el Código de Hammurabi\n- Primera ley: \"Si haces daño, recibirás el mismo daño\"\n\n🏯 Antigua China\n- Ubicación: Río Amarillo\n- Periodo: 2000 a.C. - Presente\n- Gobernante: Emperador\n- Invenciones: Papel, pólvora, imprenta, seda\n- Construcción: La Gran Muralla\n\nGran Muralla:\n- Construcción defensiva más larga\n- Construida en siglos\n- Protegía de invasiones\n- Patrimonio Mundial\n\n🏛️ Imperio Romano\n- Ubicación: Italia y alrededores\n- Periodo: 27 a.C. - 476 d.C.\n- Gobernante: Emperador\n- Legado: Leyes, idiomas, arquitectura\n- Construcciones: Coliseo, Acueductos, Panteón\n\nAportaciones:\n- Leyes civiles\n- Caminos y acueductos\n- Sistema de gobierno\n- Arte y literatura"
+      }
+    ],
+    "Geografía": [
+      {
+        "id": "continentes",
+        "titulo": "Los Continentes",
+        "descripcion": "Explora los continentes del mundo.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=hDYo01yJzKA",
+        "imagen": "/static/images/continentes.jpg",
+        "contenido": "Nuestro planeta tiene 7 continentes. Aprenderemos sobre cada uno, sus características, clima y animales.\n\n🌍 Los 7 Continentes\n\n🌎 América\n- Ubicación: Hemisferio Occidental\n- División: América del Norte, Central y Sur\n- Países: USA, México, Brasil, Canadá\n- Características: Montañas (Andes), bosques, ríos (Amazonas)\n- Animales: Jaguares, cóndores, osos\n- Clima: Muy variado, desde árido hasta tropical\n\n🌍 Europa\n- Ubicación: Oeste de Asia\n- División: Europa Occidental, Oriental, Septentrional\n- Países: España, Francia, Alemania, Italia\n- Características: Montañas (Alpes), llanuras, costas\n- Animales: Osos, linces, águilas\n- Clima: Templado\n\n🌏 Asia\n- Ubicación: Hemisferio Oriental\n- División: Asia Occidental, Sur, Este, Sudeste\n- Países: China, India, Japón, Tailandia\n- Características: Mesetas, montañas (Himalaya), junglas\n- Animales: Tigres, pandas, elefantes\n- Clima: Muy variado\n\n🐘 África\n- Ubicación: Sur de Europa\n- Características: Desiertos (Sahara), sabanas, bosques\n- Países: Egipto, Kenya, Sudáfrica, Marruecos\n- Animales: Leones, cebras, elefantes, jirafas\n- Clima: Cálido a muy cálido\n\n🦘 Oceanía\n- Ubicación: Suroeste del Pacífico\n- Países: Australia, Nueva Zelanda, Fiji\n- Características: Islas, arrecifes de coral\n- Animales: Canguros, koalas, ornitorrincos\n- Clima: Tropical y templado\n\n❄️ Antártida\n- Ubicación: Polo Sur\n- Características: Hielo permanente, glaciares\n- Población: Científicos (investigación)\n- Animales: Pingüinos, focas\n- Clima: El más frío del planeta\n\n🧊 Ártico\n- Ubicación: Polo Norte\n- Características: Hielo marino, tundra\n- Animales: Osos polares, morsas\n- Clima: Extremadamente frío\n\n🗺️ Cómo se distribuyen\n- La Tierra: 71% agua, 29% tierra\n- 195 países en el mundo\n- Más de 7 mil millones de personas\n- Cada continente es único y especial"
+      }
+    ],
+    "La Entidad donde Vivo": [
+      {
+        "id": "mi-estado",
+        "titulo": "Mi Estado y su Historia",
+        "descripcion": "Conoce la historia y cultura de tu región.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=j5CvL1LiQyQ",
+        "imagen": "/static/images/mi-estado.jpg",
+        "contenido": "Cada estado tiene una historia única y rica. Aprenderemos sobre los personajes históricos y tradiciones de tu región.\n\n🏛️ ¿Qué es un estado?\nUn estado es una región de un país con su propia capital, gobierno y características especiales.\n\n📚 El Estado de México (Ejemplo)\nCapital: Ciudad de México\nUbicación: Centro de México\nPoblación: Más de 17 millones de personas\nHistoria: Azteca, Colonial, Independencia, Moderno\n\nPersonajes históricos:\n- Benito Juárez: Presidente benéfico\n- Emiliano Zapata: Revolucionario\n- Guadalupe Victoria: Primer presidente\n\n🎭 Tradiciones y costumbres\n- Celebraciones: Día de Muertos, Fiestas patrias\n- Comida: Tacos, mole, tamales\n- Arte: Murales, artesanías\n- Danzas: Danzas prehispánicas\n\n🏛️ Símbolos del estado\n- Bandera: Con los colores nacionales\n- Escudo: Representa la historia\n- Himno: Refleja los valores\n\n🌆 Ciudades principales\n- Ciudad de México: Capital\n- Ecatepec: Muy poblada\n- Naucalpán: Centro industrial\n\n🎯 Lugares turísticos\n- Pirámides de Teotihuacán\n- Bosque de Chapultepec\n- Xochimilco: Las chinampas\n- Templo Mayor\n\n💡 Importancia de conocer tu estado\n- Fortalece tu identidad\n- Conecta con tu cultura\n- Respeto a la historia\n- Orgullo de pertenencia"
+      }
+    ],
+    "Exploración de la Naturaleza y la Sociedad": [
+      {
+        "id": "ecosistema",
+        "titulo": "Ecosistemas",
+        "descripcion": "Aprende cómo seres vivos y naturaleza interactúan.",
+        "videoYouTubeId": "https://www.youtube.com/watch?v=xzYvbpPMVkE",
+        "imagen": "/static/images/ecosistema.jpg",
+        "contenido": "Un ecosistema es un sistema donde todos los seres vivos están conectados. Estudiaremos cómo dependen unos de otros.\n\n🌿 ¿Qué es un ecosistema?\nUn ecosistema es un lugar donde plantas, animales y organismos viven e interactúan juntos con su ambiente físico.\n\n🌍 Componentes de un ecosistema\n\n☀️ Factores no vivos (abióticos)\n- Luz solar: Energía\n- Agua: Para beber y vivir\n- Aire: Contiene oxígeno\n- Tierra: Sustrato de plantas\n- Temperatura: Debe ser adecuada\n- Humedad: Cantidad de agua en el aire\n\n🌱 Factores vivos (bióticos)\n- Plantas: Productores (crean alimento)\n- Herbívoros: Comen plantas\n- Carnívoros: Comen otros animales\n- Descomponedores: Descomponen materia muerta\n- Humanos: Parte del ecosistema\n\n🌲 Tipos de ecosistemas\n\n🏜️ Desierto\n- Muy seco\n- Poca lluvia\n- Plantas: Cactus\n- Animales: Lagartos, camellos\n- Temperatura: Muy caliente\n\n🌳 Bosque\n- Muchos árboles\n- Lluvia regular\n- Plantas: Árboles, helechos\n- Animales: Venados, pájaros\n- Humedad: Alta\n\n🌿 Selva\n- Muy tropical\n- Lluvia abundante\n- Plantas: Muy diversas\n- Animales: Jaguares, monos\n- Temperatura: Cálida\n\n🌊 Océano\n- Agua salada\n- Plantas: Algas\n- Animales: Peces, ballenas\n- Profundidad: Varía\n\n🏞️ Pradera\n- Pocas plantas\n- Herbívoros abundantes\n- Depredadores: Leones\n- Clima: Templado\n\n🔄 La cadena alimenticia\n1. Plantas: Producen alimento del sol\n2. Herbívoros: Comen plantas\n3. Depredadores: Comen herbívoros\n4. Descomponedores: Reciclan\n\n💚 Cuidar los ecosistemas\n- No contaminar el agua\n- Proteger plantas y animales\n- No talar árboles innecesariamente\n- Respetar la naturaleza\n- Usar recursos responsablemente"
+      }
+    ]
+  }
+}

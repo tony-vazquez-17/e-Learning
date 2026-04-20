@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ tema.titulo }} - {{ materia }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-content">
+            <a href="{{ url_for('index') }}" class="navbar-brand">Kids Students</a>
+            <span class="navbar-title">{{ materia }} - {{ tema.titulo }}</span>
+        </div>
+    </nav>
+
+    <main class="page-content tema-page">
+        <section class="tema-hero">
+            <h1>{{ tema.titulo }}</h1>
+            <p class="tema-meta">{{ materia }} • Grado {{ grado }}</p>
+        </section>
+
+        <div class="tema-layout">
+            <div class="info-card">
+                <div class="info-header">
+                    <h2>📖 Sobre este tema</h2>
+                </div>
+                <img src="{{ tema.imagen }}" alt="{{ tema.titulo }}" class="tema-image-large" />
+                <div class="tema-description">
+                    <h3>{{ tema.titulo }}</h3>
+                    <p>{{ tema.descripcion }}</p>
+                </div>
+            </div>
+
+            <div class="contenido-card">
+                <h2>📚 Contenido de la lección</h2>
+                <p>{{ tema.contenido }}</p>
+            </div>
+
+            <section class="video-section">
+                <h2 class="video-title">🎬 Video educativo</h2>
+                <div class="video-container">
+                    <iframe
+                        class="youtube-video"
+                        src="{{ video_url }}"
+                        title="{{ tema.titulo }}"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+        </div>
+
+        <div class="navigation-buttons">
+            <a class="button button-secondary" href="{{ url_for('materia', grado=grado, materia=materia) }}">⬅ Volver a temas</a>
+            <a class="button button-secondary" href="{{ url_for('grado', grado=grado) }}">📚 Ver todas las materias</a>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Plataforma Kids Students | ¡Sigue aprendiendo!</p>
+    </footer>
+</body>
+</html>

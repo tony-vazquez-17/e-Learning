@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    color: #2c3e50;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 1rem 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05);
+}
+
+.navbar-title {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+/* HERO SECTION */
+.hero {
+    background: linear-gradient(135deg, #ffd6f5 0%, #96d6ff 100%);
+    color: #2a2a2a;
+    padding: 50px 20px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    animation: slideDown 0.5s ease;
+}
+
+.hero-small {
+    padding: 35px 20px;
+}
+
+.hero h1 {
+    margin: 0 0 15px;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 700;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.hero p {
+    margin: 0;
+    font-size: 1.05rem;
+    opacity: 0.9;
+}
+
+.tema-hero {
+    background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    animation: fadeIn 0.6s ease;
+}
+
+.tema-hero h1 {
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    margin-bottom: 10px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.tema-meta {
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+/* PAGE CONTENT */
+.page-content {
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tema-page {
+    animation: fadeIn 0.5s ease;
+}
+
+/* GRID LAYOUT */
+.card-grid,
+.materias-grid,
+.temas-grid,
+.activity-grid {
+    display: grid;
+    gap: 24px;
+}
+
+.card-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-bottom: 40px;
+}
+
+.materias-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.temas-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+/* CARDS */
+.card,
+.materia-card,
+.tema-card,
+.info-card,
+.contenido-card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 24px;
+    box-shadow: 0 10px 35px rgba(99, 102, 241, 0.1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card:hover,
+.materia-card:hover,
+.tema-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 45px rgba(99, 102, 241, 0.2);
+}
+
+.card h2,
+.materia-card h3,
+.tema-card h3 {
+    margin-top: 0;
+    color: #667eea;
+    font-family: 'Fredoka', sans-serif;
+    margin-bottom: 12px;
+}
+
+.card p,
+.materia-card p,
+.tema-card p {
+    margin: 12px 0 18px;
+    line-height: 1.6;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.tema-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.tema-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    margin: -24px -24px 16px -24px;
+    border-radius: 20px 20px 0 0;
+}
+
+.tema-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tema-card:hover .tema-image img {
+    transform: scale(1.1);
+}
+
+.tema-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.tema-content .button {
+    margin-top: auto;
+}
+
+/* BUTTONS */
+.card-actions,
+.button-group,
+.navigation-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+    transform: translateY(-1px);
+}
+
+.button-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+}
+
+.button-primary:hover {
+    background: linear-gradient(135deg, #5568d3 0%, #6a3f99 100%);
+}
+
+.button-secondary {
+    background: #4ecdc4;
+    color: white;
+}
+
+.button-secondary:hover {
+    background: #3db8b0;
+}
+
+.button-small {
+    padding: 8px 16px;
+    font-size: 0.85rem;
+}
+
+.back-link {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.navigation-buttons {
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+/* VIDEO SECTION */
+.video-section {
+    grid-column: 1 / -1;
+    margin-bottom: 30px;
+}
+
+.video-title {
+    font-size: 1.3rem;
+    color: #667eea;
+    margin-bottom: 20px;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    animation: scaleIn 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.youtube-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* TEMA LAYOUT */
+.tema-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    animation: fadeIn 0.6s ease 0.1s backwards;
+}
+
+.tema-info {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.tema-image-large {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.tema-image-large:hover {
+    transform: scale(1.02);
+}
+
+.tema-description h3 {
+    color: #667eea;
+    margin-bottom: 12px;
+}
+
+.contenido-card p {
+    color: #555;
+    line-height: 1.8;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+.info-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #667eea;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 50px;
+}
+
+/* ANIMATIONS */
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .tema-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .card-grid,
+    .materias-grid,
+    .temas-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .activity-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+
+    .navbar-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar-title {
+        font-size: 0.8rem;
+    }
+
+    .hero {
+        padding: 35px 15px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+
+    .page-content {
+        padding: 20px 15px;
+    }
+
+    .card,
+    .materia-card,
+    .tema-card,
+    .info-card,
+    .contenido-card {
+        padding: 16px;
+    }
+
+    .button {
+        padding: 10px 18px;
+        font-size: 0.9rem;
+    }
+
+    .navigation-buttons {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .activity-item h3 {
+        font-size: 0.85rem;
+    }
+
+    .activity-icon {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    .tema-hero h1 {
+        font-size: 1.4rem;
+    }
+
+    .card-grid,
+    .materias-grid,
+    .temas-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .navbar {
+        padding: 0.75rem 0;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .page-content {
+        padding: 15px 12px;
+    }
+
+    .card,
+    .materia-card,
+    .tema-card {
+        padding: 12px;
+    }
+
+    .tema-image {
+        height: 150px;
+        margin: -12px -12px 12px -12px;
+    }
+
+    .button {
+        padding: 8px 14px;
+        font-size: 0.85rem;
+    }
+
+    .video-title {
+        font-size: 1.1rem;
+    }
+}
