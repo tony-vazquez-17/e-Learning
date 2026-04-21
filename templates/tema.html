@@ -21,24 +21,13 @@
         </section>
 
         <div class="tema-layout">
-            <div class="info-card">
-                <div class="info-header">
-                    <h2>📖 Sobre este tema</h2>
-                </div>
-                <img src="{{ tema.imagen }}" alt="{{ tema.titulo }}" class="tema-image-large" />
-                <div class="tema-description">
-                    <h3>{{ tema.titulo }}</h3>
-                    <p>{{ tema.descripcion }}</p>
-                </div>
-            </div>
-
             <div class="contenido-card">
-                <h2>📚 Contenido de la lección</h2>
+                <h2>Contenido de la lección</h2>
                 <p>{{ tema.contenido }}</p>
             </div>
 
             <section class="video-section">
-                <h2 class="video-title">🎬 Video educativo</h2>
+                <h2 class="video-title">Video educativo</h2>
                 <div class="video-container">
                     <iframe
                         class="youtube-video"
@@ -53,13 +42,13 @@
         </div>
 
         <div class="navigation-buttons">
-            <a class="button button-secondary" href="{{ url_for('materia', grado=grado, materia=materia) }}">⬅ Volver a temas</a>
-            <a class="button button-secondary" href="{{ url_for('grado', grado=grado) }}">📚 Ver todas las materias</a>
+            <a class="button button-secondary" href="{{ url_for('materia', grado=grado, materia=materia) }}">⬅️Volver a temas</a>
+            <a class="button button-secondary" href="{{ url_for('grado', grado=grado) }}">⬅️Ver todas las materias</a>
         </div>
     </main>
 
     <footer class="footer">
-        <p>© 2026 Plataforma Kids Students | ¡Sigue aprendiendo!</p>
+        <p>© 2026 Plataforma Kids Students | Sigue aprendiendo</p>
     </footer>
 </body>
 </html>

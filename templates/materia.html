@@ -26,9 +26,6 @@
             <div class="temas-grid">
                 {% for tema in temas %}
                 <article class="tema-card">
-                    <div class="tema-image">
-                        <img src="{{ tema.imagen }}" alt="{{ tema.titulo }}" />
-                    </div>
                     <div class="tema-content">
                         <h3>{{ tema.titulo }}</h3>
                         <p>{{ tema.descripcion }}</p>
@@ -45,12 +42,12 @@
         {% endif %}
 
         <div class="back-link">
-            <a class="button button-secondary" href="{{ url_for('grado', grado=grado) }}">Volver</a>
+            <a class="button button-secondary" href="{{ url_for('grado', grado=grado) }}">⬅️Volver</a>
         </div>
     </main>
 
     <footer class="footer">
-        <p>¡Elige un tema y disfruta aprendiendo! 🌟</p>
+        <p>Elige un tema y disfruta aprendiendo</p>
     </footer>
 </body>
 </html>

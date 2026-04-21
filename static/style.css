@@ -173,25 +173,7 @@ body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-}
-
-.tema-image {
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-    margin: -24px -24px 16px -24px;
-    border-radius: 20px 20px 0 0;
-}
-
-.tema-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.tema-card:hover .tema-image img {
-    transform: scale(1.1);
+    padding: 20px;
 }
 
 .tema-content {

@@ -1,4 +1,4 @@
-from flask import Flask, render_template, abort, make_response # type: ignore
+from flask import Flask, render_template, abort, make_response 
 from io import BytesIO
 from pathlib import Path
 from urllib.parse import urlparse, parse_qs
